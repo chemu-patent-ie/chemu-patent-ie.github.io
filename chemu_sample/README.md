@@ -6,4 +6,4 @@ The chemu_sample consists of two subfolders: "ner" (for task 1) and "ee" (for ta
 Due to some inconsistencies in how character entities were handled, we have corrected the sample and create a new version of the sample dataset: chemu_sample.v2.zip
 Note that the file index numbers in this version of the sample differ from in the original version.
 
-We have removed the trigger word entities, which are not the target output from task 1, from the annotation files in "ner" and create a 3rd version of the sample dataset: chemu_sample.v3.zip
+We have removed the labeled trigger words from the annotation files in "ner", since those words are not the target output in task 1. Please find the updated 3rd version of the sample dataset: chemu_sample.v3.zip
